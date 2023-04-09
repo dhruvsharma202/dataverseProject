@@ -1,11 +1,15 @@
 import React from 'react'
 
-const hero = () => {
+const Hero = () => {
   return (
-   <div className="hero">
-    <div className="left-h">left-side</div>
-   </div>
+    <div>
+      <div className="hero">
+        <div className="left-h">left</div>
+        <div className="right-h">right</div>
+
+      </div>
+    </div>
   )
 }
 
-export default hero
+export default Hero
