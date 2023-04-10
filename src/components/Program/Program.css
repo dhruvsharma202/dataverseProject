@@ -1,0 +1,49 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    gap:2rem;
+}
+.programs-heading{
+    display: flex;
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+    font-size: bold;
+    font-weight: 750;
+    text-transform: uppercase;
+    gap: 5rem;
+    font-style: italic;
+
+}
+.programs-heading>span:nth-of-type(2){
+    color: white;
+    font-size: bold;
+    font-size: 3rem;
+}
+.program-categories{
+    display: flex;
+    gap: 1rem;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: gray;
+    color:white;
+    
+}
+.categories>:nth-child(1){
+    width:2em;
+    height: 2rem;
+    fill: white;
+}
+.categories>:nth-child(2){
+    font-size: 1rem;
+    font-weight: 600;
+}
+.categories>:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
