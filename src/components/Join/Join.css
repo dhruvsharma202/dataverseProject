@@ -1,0 +1,46 @@
+.join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+}
+.left-j>hr{
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    position: absolute;
+    border-radius: 20%;
+   margin: -10px 0;
+    
+}
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.form{
+    display: flex;
+    gap: 1rem;
+    background-color: var(--gray);
+    padding: 1rem 2rem;
+}
+.form>input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgrayz);
+
+}
+::placeholder{
+    color: var(--lightgray);
+}
+.btn-join{
+    background: var(--orange);
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+}
