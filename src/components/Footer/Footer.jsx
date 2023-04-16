@@ -8,6 +8,8 @@ const Footer = () => {
   return (
     <div className="footer-conatiner">
       <hr />
+      <div className="blur blur-f-1"></div>
+     <div className="blur blur-f-2"></div>
       <div className="footer">
         <div className="social-links">
           <img src={Github} alt="" />
@@ -19,8 +21,7 @@ const Footer = () => {
         </div>
     
       </div>
-     <div className="blur blur-f-1"></div>
-     <div className="blur blur-f-2"></div>
+     
     </div>
   );
 };
